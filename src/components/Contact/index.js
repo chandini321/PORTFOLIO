@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+import { Snackbar, Alert } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -53,7 +53,6 @@ const Desc = styled.div`
         font-size: 16px;
     }
 `;
-
 
 const ContactForm = styled.form`
   width: 95%;
@@ -118,19 +117,17 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;  // Add this line to change the cursor to a pointer
 `
 
-
-
 const Contact = () => {
-
   //hooks
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_n068s1g', 'template_cc4jysm', form.current, 'FMqw1the7Fd0dVgpu')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -138,8 +135,6 @@ const Contact = () => {
         console.log(error.text);
       });
   }
-
-
 
   return (
     <Container>
@@ -157,10 +152,13 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+          onClose={() => setOpen(false)}
+          anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+        >
+          <Alert onClose={() => setOpen(false)} severity="success" sx={{ width: '100%' }}>
+            Email sent successfully!
+          </Alert>
+        </Snackbar>
       </Wrapper>
     </Container>
   )

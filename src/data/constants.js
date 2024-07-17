@@ -102,7 +102,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
       },
       {
         name: "GitHub",
@@ -117,12 +117,12 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx2YrowIKVQFJbX10t3Fon48trKz0QymS-Xg&s",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-KLTjAdBCoCYUv5tirVg_QIQpsZHTScZYnA&s",
       },
     ],
   },
@@ -226,7 +226,7 @@ export const projects = [
     description:
       "Developed a task manager app with dark mode, intuitive drag-and-drop task reordering, and customizable task colors for a personalized experience.Features include local task saving, task editing, a notification box, and a tablet and mobile-friendly design for on-the-go productivity.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://raw.githubusercontent.com/chandini321/PORTFOLIO/Images/download.jpg",
     tags: ["React Js", "Javascript", "CSS"],
     category: "web app",
     github: "https://github.com/chandini321/Todo-app-",
@@ -239,7 +239,7 @@ export const projects = [
     description:
       "Developed a real-time chat application using Node.js, Express.js, and Socket.io. ChatCord allows users to join chat rooms, send instant messages, and engage in real-time communication.",
     image:
-      "https://raw.githubusercontent.com/chandini321/Chandini-Portfoilo/images/WhatsApp%20Image%202024-07-14%20at%204.02.12%20PM.jpeg",
+      "https://raw.githubusercontent.com/chandini321/PORTFOLIO/Images/WhatsApp%20Image%202024-07-14%20at%204.02.12%20PM.jpeg",
     tags: ["Nodejs", "Socket.io", "React Js", "EXpressjs"],
     category: "web app",
     github: "https://github.com/chandini321/Chatcord",
@@ -254,7 +254,7 @@ export const projects = [
     description:
       "– Developed a real-time vehicle counting and detection system using YOLOv8 for precise detection, classification, and counting of vehicles to enhance traffic flow,urban planning and enforce regulations.Created a user-friendly web interface using streamlit library to provide real-time access to vehicle count data and implemented a prototype weighbridge systems for accurate vehicle weighing, applicable in industries, cargo terminals, and ports.",
     image:
-      "https://raw.githubusercontent.com/chandini321/Chandini-Portfoilo/images/Screenshot%20(26).png",
+      "https://raw.githubusercontent.com/chandini321/PORTFOLIO/Images/Screenshot%20(26).png",
     tags: ["Python"," Deep leaning","Streamlit" ],
     category: "machine learning",
     github: "https://github.com/chandini321",
@@ -267,7 +267,7 @@ export const projects = [
     description:
       "Implemented a Spam mail prediction model using Support Vector Machine(SVM) and Logistic Regression algorithms, utilizing TF-IDF vectorization and NLP techniques for feature extraction.This model achieved accurate of 96 in spam detection",
     image:
-      "https://raw.githubusercontent.com/chandini321/Chandini-Portfoilo/images/Screenshot%20(25).png",
+      "https://raw.githubusercontent.com/chandini321/PORTFOLIO/Images/spam.jpg",
     tags: ["Python", "Machine learning", "SVM", "Matplotlib"],
     category: "machine learning",
     github: "https://github.com/chandini321/Spam-mail-prediction-model",
@@ -281,7 +281,7 @@ export const projects = [
     description:
       "Developed a Customer Segmentation Model to enhance business understanding and optimize marketing strategies for malls.This project aimed to accurately predict insurance costs for individuals based on various contributing factors.",
       image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.corporatevision-news.com%2F5-customer-segmentation-analysis-methods-for-business-growth%2F&psig=AOvVaw0yC4OjzEBN4Qp2r0YRdUxg&ust=1721039559765000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjCk5CqpocDFQAAAAAdAAAAABAE",
+      "https://raw.githubusercontent.com/chandini321/PORTFOLIO/Images/images.jpg",
     tags: ["Python", "Machine learning", "DB scan", "Matplotlib"],
     category: "machine learning",
     github: "https://github.com/chandini321/Machine-learning",
